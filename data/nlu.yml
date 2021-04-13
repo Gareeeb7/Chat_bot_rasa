@@ -1,0 +1,91 @@
+version: "2.0"
+
+nlu:
+
+# start greet
+- intent: greet
+  examples: |
+    - hey
+    - How are you
+    - what are you doing 
+    - are you good
+    - hy
+    - hy lykan
+    - heyyyyy
+    - hows going
+    - hellooo
+    - hello
+    - hello, hi
+    - helllo
+    - hi
+    - what's up
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - yes i have query
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+#query
+- intent: query
+  examples: |
+    - I have an doubt
+    - i have an query
+    - i want to ask something
+    - can i say something
+    - i have a question
+    - what you can do for me
+
+
+
+# Good bye
+- intent: goodbye
+  examples: |
+    - see ya
+    - catch you later
+    - good afternoon
+    - cu
+    - bie
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+#course info
+- intent: course_info
+  examples: |
+    - how many courses do you have
+    - courses?
+    - please provide courses info
+    - please provide courses information
+    - list all courses detials
+    - list all courses
+    - what info you can Provide
+    - what info you can give
+    - course info pls
+    - course information please
+
+#course join
+- intent: course_join
+  examples: |
+    - I want to join a course
+    - how can i join a course
+    - where can i join these courses
+    - how to join these courses
+    - i want to join maths course
+    - i want to join science course
+    - i want to join english course
+    - where to start
+    - how to enroll in courses
+    - how to join courses
+    - how to contact a tutor

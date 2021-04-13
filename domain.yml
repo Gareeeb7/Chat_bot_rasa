@@ -1,0 +1,30 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - greet
+  - query
+  - course_info
+  - course_join
+  - goodbye
+
+
+responses:
+  utter_greet:
+  - text: Hey, hope you are doing well. Please write you query?
+  utter_course_menu:
+  - text: listing all our courses detalis here. Maths 5000 Rs Monthly, Science 8000 Rs Monthly, English 10000 Rs Monthly
+  utter_contact:
+  - text: Please fill this 'www.google.com' form, a teacher will contact you shortly.
+  utter_bye:
+  - text: Have a nice day!
+  utter_goodbye:
+  - text: Have a nice day!
+  utter_ans:
+  - text: I love to provide information that you need.
+
+

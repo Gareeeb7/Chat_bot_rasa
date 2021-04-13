@@ -1,0 +1,22 @@
+version: "2.0"
+
+stories:
+
+- story: course_info
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+  - intent: query
+  - action: utter_ans
+  
+  - intent: course_info
+  - action: utter_course_menu
+
+  - intent: course_join
+  - action: utter_contact
+
+  - intent: goodbye
+  - action: utter_bye
+
+
